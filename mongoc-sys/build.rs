@@ -57,7 +57,9 @@ fn main() {
 
                 cmake.arg("-DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF");
                 cmake.arg("-DENABLE_SSL=OPENSSL");
+                cmake.arg("-DENABLE_SASL=OFF");
                 cmake.arg("-DENABLE_STATIC=ON");
+                cmake.arg("-DENABLE_ENABLE_EXAMPLES=OFF");
                 cmake.arg("-DENABLE_TESTS=OFF");
                 cmake.arg("-DWITH_PIC=ON");
                 cmake.arg("-DWITH_SNAPPY=OFF");
